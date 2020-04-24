@@ -1,17 +1,10 @@
-import './style.css';
-import printMe from './print.js';
-
+// src/index.js
 function component() {
-    var element = document.createElement('div');
-    element.classList.add('box');
-    element.innerHTML = 'Hello Webpack';
+  var element = document.createElement('div');
 
-    var btn = document.createElement('button');
-    btn.innerHTML = '点击我';
-    btn.onclick = printMe;
-    element.appendChild(btn);
+  element.innerHTML = "Hello Webpack2223342223";
 
-    return element;
+  return element;
 }
 
 document.body.appendChild(component());

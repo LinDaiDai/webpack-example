@@ -4,7 +4,7 @@
 
 github教材目录地址： [霖呆呆的webpack之路](https://github.com/LinDaiDai/niubility-coding-js/tree/master/前端工程化/webpack) 
 
-掘金教材目录地址：[跟着"呆妹"来学webpack(基础篇)](https://juejin.im/post/5e9ada576fb9a03c391300a1)
+掘金教材目录地址：[LinDaiDai_霖呆呆](https://juejin.im/user/59ffc33751882554b836ee63/posts)
 
 
 
