@@ -2,9 +2,17 @@
 
 此项目为「霖呆呆的webpack之路」教材的案例，且`master`主支上包含了所有的案例。
 
-github教材目录地址： [霖呆呆的webpack之路](https://github.com/LinDaiDai/niubility-coding-js/tree/master/前端工程化/webpack) 
+github教材地址： [霖呆呆的webpack之路-构建方式篇](https://github.com/LinDaiDai/niubility-coding-js/tree/master/前端工程化/webpack) 
 
-掘金教材目录地址：[跟着"呆妹"来学webpack(基础篇)](https://juejin.im/post/5e9ada576fb9a03c391300a1)
+掘金教材目录地址：[霖呆呆向你发起了多人学习webpack-构建方式篇(2)](https://juejin.im/post/5e9ada576fb9a03c391300a1)
+
+主要介绍了以下的功能:
+
+构建方式篇-不同环境的构建:
+
+- webpack-merge 构建不同的环境
+- process.env.NODE_ENV 的基本使用
+- webpack.DefinePlugin 插件指定 NODE_ENV
 
 
 
@@ -41,10 +49,10 @@ git clone https://github.com/LinDaiDai/webpack-example.git
 当然你也可以用克隆：
 
 ```javascript
-git clone -b webpack-basic https://github.com/LinDaiDai/webpack-example.git
+git clone -b webpack-merge https://github.com/LinDaiDai/webpack-example.git
 ```
 
-使用`- webpack-basic`指定你要下载的分支。(`webpack-basic`是分支名)
+使用`- webpack-merge`指定你要下载的分支。(`webpack-merge`是分支名)
 
 但是这种方式克隆下来的文件夹的名称还是`webpack-example`，并不是分支名。那是因为本质上它们还是同一个项目，不过里面的内容不同。
 
