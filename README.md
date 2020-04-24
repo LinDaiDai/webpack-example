@@ -1,26 +1,20 @@
 ## 描述
 
-此分支为**基础篇**中的教材案例:
+此分支为**构建方式篇**中的教材案例:
 
-教材github地址：[《霖呆呆的 webpack 之路-基础篇》](https://github.com/LinDaiDai/niubility-coding-js/blob/master/前端工程化/webpack/霖呆呆的webpack之路-基础篇.md)
+教材github地址：[《霖呆呆的 webpack 之路-构建方式篇》](https://github.com/LinDaiDai/niubility-coding-js/blob/master/前端工程化/webpack/霖呆呆的webpack之路-构建方式篇.md)
 
-教材掘金地址：[《跟着"呆妹"来学webpack(基础篇)》](https://juejin.im/post/5e9ada576fb9a03c391300a1)
+教材掘金地址：[《霖呆呆向你发起了多人学习webpack-构建方式篇(2)》](https://juejin.im/post/5e9ada576fb9a03c391300a1)
 
 
 
 主要介绍了以下的功能:
 
-基础篇:
+构建方式篇的几种开发工具:
 
-- 本地安装 webpack
-- 使用配置文件 webpack.config.js
-- 加载 css
-- 加载图片
-- 加载字体
-- 加载 xml
-- 多个输入/输出
-- HtmlWebpackPlugin 插件
-- CleanWebpackPlugin 插件
+- webpack --watch
+- webpack-dev-server 工具
+- webpack-dev-middle 工具, 以及配合express搭建本地web服务器
 
 
 
@@ -57,10 +51,10 @@ git clone https://github.com/LinDaiDai/webpack-example.git
 当然你也可以用克隆：
 
 ```javascript
-git clone -b webpack-basic https://github.com/LinDaiDai/webpack-example.git
+git clone -b webpack-server https://github.com/LinDaiDai/webpack-example.git
 ```
 
-使用`- webpack-basic`指定你要下载的分支。(`webpack-basic`是分支名)
+使用`- webpack-server`指定你要下载的分支。(`webpack-server`是分支名)
 
 但是这种方式克隆下来的文件夹的名称还是`webpack-example`，并不是分支名。那是因为本质上它们还是同一个项目，不过里面的内容不同。
 
