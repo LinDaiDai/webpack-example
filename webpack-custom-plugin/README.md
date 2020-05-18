@@ -41,10 +41,10 @@ git clone https://github.com/LinDaiDai/webpack-example.git
 当然你也可以用克隆：
 
 ```javascript
-git clone -b webpack-basic https://github.com/LinDaiDai/webpack-example.git
+git clone -b webpack-custom-plugin https://github.com/LinDaiDai/webpack-example.git
 ```
 
-使用`-b webpack-basic`指定你要下载的分支。(`webpack-basic`是分支名)
+使用`-b webpack-custom-plugin`指定你要下载的分支。(`webpack-custom-plugin`是分支名)
 
 但是这种方式克隆下来的文件夹的名称还是`webpack-example`，并不是分支名。那是因为本质上它们还是同一个项目，不过里面的内容不同。
 

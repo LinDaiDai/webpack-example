@@ -1,0 +1,25 @@
+{
+  "name": "webpack-custom-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.3.0",
+    "lodash.union": "^4.6.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "minimatch": "^3.0.4",
+    "recursive-readdir-sync": "^1.0.6",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

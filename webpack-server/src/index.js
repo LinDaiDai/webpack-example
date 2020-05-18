@@ -2,7 +2,7 @@
 function component() {
   var element = document.createElement('div');
 
-  element.innerHTML = "Hello Webpack2223342223";
+  element.innerHTML = "Hello Webpack222334dfdsf2223";
 
   return element;
 }
